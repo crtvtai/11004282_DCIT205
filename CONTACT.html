@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>CONTACT US</title>
+        <link rel="stylesheet" href="style6.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    </head>
+    <section class="header">
+        <nav>
+            <a href="205 IA.html"><img src="compscideptt.png"></a> 
+            <div class="nav-links">
+                <ul>
+                    <a href="205 IA.html">HOME</a>
+                    <a href="ABOUT.html">ABOUT</a>                            
+                    <a href="CATALOG.html">CATALOG</a>
+                    <a href="RESOURCES.html">RESOURCES</a>
+                    <a href="EVENTS.html">EVENTS</a>
+                    <a href="CONTACT.html">CONTACTS</a>
+                    <a href="PROJECT.html">PROJECTS</a>
+                </ul>
+            </div>
+        </nav>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: "montserrat", "sans-serif";
+            box-sizing: border-box;
+        }
+
+        body{
+            min-height: 100vh;
+            background-image:linear-gradient(rgba(21,61,111,0.7),rgba(21,61,111,0.7)),
+            url("ugbackground.jpg");
+            background-position: center;
+            background-size: cover;
+            position: relative;
+            display: flex;
+            justify-content: center;
+        }
+        .contact-info{
+            margin-left: 160px;
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            align-items: center;
+            align-items: center;
+            justify-content: center;
+            padding: 0 20px;
+        }
+
+        .card{
+            background: #b5975d ;
+            border-radius: 20px;
+            opacity: 85%;
+            padding: 0 20px;
+            margin: 0 10px;
+            width: calc(33% - 20px);
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #153d6f;
+            cursor: pointer;
+        }
+
+        .card-icon{
+            font-size: 28px;
+            background: #ffffff;
+            width: 60px;
+            height: 60px;
+            text-align: center;
+            line-height: 60px !important;
+            border-radius: 50%;
+            transition: 0.3s linear;
+        }
+
+        .card:hover .card-icon{
+            background: none;
+            color: ;
+            transform: scale(1.6);
+        }
+
+        .card p{
+            margin-top: 20px;
+            font-weight: 300;
+            letter-spacing: 2px;
+            max-height: 0;
+            opacity: 0;
+            transition: 0.3s linear;        
+        }
+
+        .card:hover p{
+            max-height: 40px;
+            opacity: 1;
+        }
+
+        @media screen and (max-width:800px) {
+            .contact-info{
+                flex-direction: column;
+            }
+            .card{
+                width: 100%;
+                max-width: 300px;
+                margin: 10px 0;
+            }
+        }
+        .nav-img{
+    container: fill;
+    width: 350px;
+    align-items: center;
+}
+.nav-links{
+    flex: 1;
+    text-align: center;
+    word-spacing: 100px;
+}
+.nav-links ul a {
+    list-style: none;
+    display: inline block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul a{
+    top: 5%;
+    color: #ffff;
+    text-decoration: none;
+    font-size: 13px;
+}
+.nav-links ul a:hover{
+    content: '';
+    color: #b5975d;
+    width: 0%;
+    height: 2px;
+    transition: 0.5s;
+}
+    </style>
+    <body>
+        <div class="contact-info">
+            <div class="card">
+                <i class="card-icon far fa-envelope"></i>
+                <p>thmzfrgl14@gmail.com</p>
+            </div>
+
+            <div class="card">
+                <i class="card-icon fas fa-phone"></i>
+                <p>+233 509996168</p>
+            </div>
+
+            <div class="card">
+                <i class="card-icon fas fa-map-marker-alt"></i>
+                <p>Accra, Ghana</p>
+            </div>
+        </div>
+        </section>
+    </body>
+</html>
